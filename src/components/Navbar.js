@@ -7,16 +7,16 @@ function Navbar() {
         <header>
             <nav>
                 <ul className="navbar">
-                    <li className="nav-item">
+                    <li className="navbar-item">
                         <Link to="/">About</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="navbar-item">
                         <Link to="/resume">Resume</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="navbar-item">
                         <Link to="/projects">Projects</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="navbar-item">
                         <Link to="/contact">Contact</Link>
                     </li>
                 </ul>

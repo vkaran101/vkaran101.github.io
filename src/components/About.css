@@ -1,0 +1,27 @@
+.profile {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile__portfolio {
+    justify-content: center;
+}
+
+.profile__button {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 30px 5px 30px;
+    display: inline;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    transition-duration: .3s;
+}
+
+.profile__button:hover {
+    background-color: white;
+    color: blue;
+    border-color: blue;
+}
