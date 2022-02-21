@@ -15,7 +15,6 @@ function About() {
               <h3>Tech Professional</h3>
             </div>
             <div className="profile__connect">
-
             </div>
           </div>
           <div className="profile__info">
