@@ -3,6 +3,10 @@
     justify-content: space-evenly;
 }
 
+.profile__info__left {
+    background-color: aliceblue;
+}
+
 .profile__portfolio {
     justify-content: center;
 }

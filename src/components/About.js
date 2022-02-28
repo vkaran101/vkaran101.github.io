@@ -5,7 +5,7 @@ import vandana_bitmoji from './vandana_bitmoji.png'
 function About() {
     return ( 
         <div className="profile">
-          <div className="profile__info">
+          <div className="profile__info__left">
             <div className="profile__photo__container">
               <img src={vandana_bitmoji} alt="Vandana"></img>
             </div>
@@ -17,7 +17,7 @@ function About() {
             <div className="profile__connect">
             </div>
           </div>
-          <div className="profile__info">
+          <div className="profile__info__right">
             <div className="profile__greeting">
               <h1>Hello!</h1>
             </div>

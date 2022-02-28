@@ -13,4 +13,15 @@ ul.navbar {
 .navbar-item {
     padding: 10px;
     text-decoration: none;
+    border-bottom: 3px solid white;
+    transition: all .3s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item:hover {
+    border-bottom: 3px solid black;
 }
