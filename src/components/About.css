@@ -22,6 +22,7 @@
     margin: 10px;
     border-radius: 10px;
     border-width: 2px;
+    border-color: #986e68;
     border-style: solid;
     transition-duration: .3s;
 }
