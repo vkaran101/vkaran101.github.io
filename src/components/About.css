@@ -1,10 +1,12 @@
 .profile {
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
 }
 
 .profile__info__left {
     background-color: aliceblue;
+    color: #7f5c57;
 }
 
 .profile__portfolio {
@@ -13,7 +15,7 @@
 
 .profile__button {
     text-decoration: none;
-    background-color: blue;
+    background-color: #986e68;
     color: white;
     padding: 5px 30px 5px 30px;
     display: inline;
@@ -26,17 +28,17 @@
 
 .profile__button:hover {
     background-color: white;
-    color: blue;
-    border-color: blue;
+    color: #986e68;
+    border-color: #986e68;
 }
 
 hr {
     width: 20%;  
     height: 2px;
-    background-color: blue;  
+    background-color: #4c3734;  
     margin-bottom: 7px;  
     margin-right: auto;  
     margin-left: auto;  
     margin-top: 9px;
-    border-color: blue;  
+    border-color: #4c3734;  
 }

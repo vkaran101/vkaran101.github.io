@@ -4,6 +4,10 @@ B = Block (parent)
 E = element inside block (child)
 M = modifier that changes the style 
 */
+header {
+    background-color: white;
+    color: black;
+}
 ul.navbar {
     display: flex;
     list-style: none;
