@@ -1,0 +1,17 @@
+.draft-editor-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 1em 1.5em 3em;
+    margin: -0.2em 0.6em 1em;
+    line-height: 1.4;
+    color: #2c3a51;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+    min-height: 36%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 40vh;
+    font-size: 90%;
+}

@@ -2,13 +2,14 @@ import React from "react";
 import './Projects.css';
 import Project from "./Project";
 
-function Projects() {
+
+function Projects(props) {
     return ( 
-        <div >
-            <h1>Projects</h1>
+        <div>
+            <p className="page__header">Projects</p>
             <Project />
         </div>
     );
   }
   
-  export default Projects;
+export default Projects;
