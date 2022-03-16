@@ -1,6 +1,6 @@
 import React from "react";
 import './About.css';
-import vandana_bitmoji from './vandana_bitmoji.png'
+import vandana_bitmoji from './vandana_bitmoji.png';
 
 function About() {
     return ( 
@@ -10,7 +10,7 @@ function About() {
               <img src={vandana_bitmoji} alt="Vandana"></img>
             </div>
             <div className="profile__title">
-              <p>Vandana Karan</p>
+              <p className="profile__name">Vandana Karan</p>
               <hr></hr>
               <p className="jobTitle">R&D Engineer | Aspiring UX Researcher</p>
             </div>

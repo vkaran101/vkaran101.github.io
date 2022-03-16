@@ -14,7 +14,7 @@ function App() {
     <main className='App'>
       <div>
       </div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<About/>} />
