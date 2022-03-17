@@ -1,13 +1,13 @@
 import React from "react";
 import './About.css';
-import vandana_bitmoji from './vandana_bitmoji.png';
+import vandana_profile from './vandana_profile.jpeg';
 
 function About() {
     return ( 
         <div className="profile">
           <div className="profile__info__left">
             <div className="profile__photo__container">
-              <img src={vandana_bitmoji} alt="Vandana"></img>
+              <img src={vandana_profile} alt="Vandana"></img>
             </div>
             <div className="profile__title">
               <p className="profile__name">Vandana Karan</p>

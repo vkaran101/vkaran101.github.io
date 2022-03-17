@@ -6,12 +6,15 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from "react-router-dom";
 import ReactTooltip from "react-tooltip";
+import { useWindowWidth } from '@wojtekmaj/react-hooks';
 
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function Resume() {
+
+    const width = useWindowWidth();
     return ( 
         <div>
             <div className="page__header">
@@ -25,7 +28,9 @@ function Resume() {
             </div>
             <div className="document__container" data-tip data-for="resumeTip">
                 <Document file={vandana_resume} onLoadError={console.error}>
-                    <Page pageNumber={1}></Page>
+                    <Page pageNumber={1}
+                    width={Math.min(width * 0.75, 650)} // width: 90vw; max-width: 400px
+                    ></Page>
                 </Document>
             </div>
         </div>

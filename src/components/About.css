@@ -9,11 +9,13 @@
     background-color: #ffe9e7;
     color: #7f5c57;
     width: 40%;
+    margin: 1vw;
 }
 
 .profile__info__right {
     flex-wrap: wrap;
     width: 50%;
+    margin: 1vw;
 }
 
 .profile__photo__container {
@@ -27,33 +29,36 @@ img {
 }
 
 .profile__greeting {
-    font-size: 40px;
+    font-size: calc(32px + 2vmin);
     font-weight: bolder;
     text-align: left;
 }
 
 .profile__portfolio {
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .profile__summary {
-    font-size: 20px;
+    font-size: calc(10px + 2vmin);
     font-weight: bold;
     text-align: left;
 }
 
 .profile__button {
+    font-size: 1.5vmax;
+    max-width: 1.5vmax;
     text-decoration: none;
     background-color: #986e68;
     color: white;
-    padding: 5px 30px 5px 30px;
-    display: inline;
-    margin: 10px;
-    border-radius: 10px;
-    border-width: 2px;
+    padding: .25em 2em .25em 2em;
+    margin: .5em;
+    border-radius: .5em;
+    border-width: .1em;
     border-color: #986e68;
     border-style: solid;
     transition-duration: .3s;
+    flex: 2 1 auto;
 }
 
 .profile__button:hover {
@@ -63,7 +68,7 @@ img {
 }
 
 .profile__title {
-    font-size: 30px;
+    font-size: calc(20px + 2vmin);
     font-weight: bolder;
 }
 
@@ -88,5 +93,5 @@ hr {
 }
 
 .jobTitle {
-    font-size: 22px;
+    font-size: calc(12px + 2vmin);
 }

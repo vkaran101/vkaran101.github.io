@@ -53,7 +53,7 @@ function Contact() {
                         <input
                             id="email_subject"
                             name="email_subject"
-                            placeholder="email subject..."
+                            placeholder="Email subject..."
                             />
                             <ValidationError 
                                 prefix="Email Subject" 
@@ -68,7 +68,7 @@ function Contact() {
                         <textarea
                             id="message"
                             name="message"
-                            placeholder="write a message here..."
+                            placeholder="Write your message here..."
                         />
                         <ValidationError 
                             prefix="Message" 

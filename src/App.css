@@ -42,7 +42,7 @@
 
 .page__header {
   font-weight: bold;
-  font-size: 32px;
+  font-size: calc(22px + 2vmin);
   display: flex;
   justify-content: center;
   align-items: center;
