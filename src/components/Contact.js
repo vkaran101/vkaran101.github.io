@@ -6,7 +6,7 @@ import './Contact.css'
 function Contact() {
     const [state, handleSubmit] = useForm("xnqwzzdr");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p>Thanks for reaching out!</p>;
     }
   
     return ( 
@@ -14,7 +14,7 @@ function Contact() {
             <p className="page__header">Contact</p>
             <p className="contact__subheader">Let's Get in Touch!</p>
             <form onSubmit={handleSubmit}>
-                <ul class="contact__form">
+                <ul className="contact__form">
                     <li>
                         <label>
                             Name
