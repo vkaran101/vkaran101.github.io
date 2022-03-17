@@ -1,10 +1,15 @@
 import React from "react";
 import './About.css';
+<<<<<<< HEAD
 import vandana_profile from './vandana_profile.jpeg';
+=======
+import vandana_bitmoji from './vandana_bitmoji.png'
+>>>>>>> main
 
 function About() {
     return ( 
         <div className="profile">
+<<<<<<< HEAD
           <div className="profile__info__left">
             <div className="profile__photo__container">
               <img src={vandana_profile} alt="Vandana"></img>
@@ -13,13 +18,27 @@ function About() {
               <p className="profile__name">Vandana Karan</p>
               <hr></hr>
               <p className="jobTitle">R&D Engineer | Aspiring UX Researcher</p>
+=======
+          <div className="profile__info">
+            <div className="profile__photo__container">
+              <img src={vandana_bitmoji} alt="Vandana"></img>
+            </div>
+            <div className="profile__title">
+              <h2>Vandana Karan</h2>
+              <hr></hr>
+              <h3>Tech Professional</h3>
+>>>>>>> main
             </div>
             <div className="profile__connect">
             </div>
           </div>
           <div className="profile__info__right">
             <div className="profile__greeting">
+<<<<<<< HEAD
               <p>Hello!</p>
+=======
+              <h1>Hello!</h1>
+>>>>>>> main
             </div>
             <div className="profile__summary">
               <p>My name is Vandana, and I am passionate about accessible and innovative products. Check out my work:</p>
