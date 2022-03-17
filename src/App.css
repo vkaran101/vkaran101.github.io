@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: 'Lucida Grande';
+  background-color: #e5a59d;
+  color: white;
 }
 
 .App-logo {
@@ -36,4 +38,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.page__header {
+  font-weight: bold;
+  font-size: calc(22px + 2vmin);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
