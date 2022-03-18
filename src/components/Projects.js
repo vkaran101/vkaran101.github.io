@@ -2,7 +2,6 @@ import React from "react";
 import './Projects.css';
 import Project from "./Project";
 
-
 function Projects(props) {
     return ( 
         <div>
