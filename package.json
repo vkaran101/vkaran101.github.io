@@ -1,6 +1,7 @@
 {
-  "name": "personal-website",
+  "name": "vandana-personal-website",
   "version": "0.1.0",
+  "homepage": "https://vkaran101.github.io/",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.4",
