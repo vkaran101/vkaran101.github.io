@@ -7,7 +7,8 @@ function Projects(props) {
     return ( 
         <div>
             <p className="page__header">Projects</p>
-            <Project />
+            <p className="projects__subheader">Coming soon!</p>
+            {/* <Project /> */}
         </div>
     );
   }
