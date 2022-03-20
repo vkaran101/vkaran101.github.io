@@ -20,7 +20,7 @@ function Resume() {
             <div className="page__header">
                 <p>Resume</p>
                 <Link to="/vandana-karan-resume-UX.pdf" target="_blank" download>
-                    <FontAwesomeIcon icon={faDownload} size="fa-lg" color="white" data-tip data-for="DownloadTip"/>
+                    <FontAwesomeIcon icon={faDownload} size="xl" color="white" data-tip data-for="DownloadTip"/>
                 </Link>
                 <ReactTooltip id="DownloadTip">
                     <span>Download</span>
