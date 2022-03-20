@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import EditProject from './components/EditProject';
+import ProjectAAHW from './components/ProjectAAHW';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/' exact element={<About/>} />
           <Route path='/resume' element={<Resume/>} />
           <Route path='/projects' element={<Projects/>} />
+          <Route path='/projects/AAHW' element={<ProjectAAHW />} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/editproject' element={<EditProject />} />
         </Routes>
