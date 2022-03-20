@@ -9,7 +9,7 @@ function Projects(props) {
             <p className="page__header">Projects</p>
             {/* <p className="projects__subheader">Coming soon!</p> */}
             <ProjectAAHW isPreview={true}/>
-            <Project />
+            <Project isPreview={true}/>
         </div>
     );
   }
