@@ -15,7 +15,7 @@ class Project extends React.Component {
             return(
                 <div className="projects__preview">
                     <div className="projects__preview__info">
-                        <Link to="/projects/AAHW">Project Name</Link>
+                        <Link to="/projects/AAHW"></Link>
                         <p className="project__preview__description">Description text</p>
                     </div>
                     <div className="project__preview__photo">
