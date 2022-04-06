@@ -7,9 +7,9 @@ function Projects(props) {
     return ( 
         <div>
             <p className="page__header">Projects</p>
-            {/* <p className="projects__subheader">Coming soon!</p> */}
-            <ProjectAAHW isPreview={true}/>
-            <Project isPreview={true}/>
+            <p className="projects__subheader">Coming soon!</p>
+            {/* <ProjectAAHW isPreview={true}/>
+            <Project isPreview={true}/> */}
         </div>
     );
   }
