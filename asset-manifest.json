@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/vkaran101.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/vkaran101.github.io/static/js/main.285c8d88.js",
-    "static/js/787.5809834d.chunk.js": "/vkaran101.github.io/static/js/787.5809834d.chunk.js",
-    "static/media/logo.svg": "/vkaran101.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/vkaran101.github.io/index.html",
-    "main.073c9b0a.css.map": "/vkaran101.github.io/static/css/main.073c9b0a.css.map",
-    "main.285c8d88.js.map": "/vkaran101.github.io/static/js/main.285c8d88.js.map",
-    "787.5809834d.chunk.js.map": "/vkaran101.github.io/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/static/css/main.1b36188b.css",
+    "main.js": "/static/js/main.a2341e34.js",
+    "static/js/787.4f7ef56f.chunk.js": "/static/js/787.4f7ef56f.chunk.js",
+    "static/media/vandana_profile.jpeg": "/static/media/vandana_profile.67200f3d74db13e5054e.jpeg",
+    "static/media/lightbulb_stock.jpeg": "/static/media/lightbulb_stock.5e35340a4cd3f4fe1d23.jpeg",
+    "static/media/vandana-karan-resume-2022.pdf": "/static/media/vandana-karan-resume-2022.55d9b875c798196e85b8.pdf",
+    "index.html": "/index.html",
+    "main.1b36188b.css.map": "/static/css/main.1b36188b.css.map",
+    "main.a2341e34.js.map": "/static/js/main.a2341e34.js.map",
+    "787.4f7ef56f.chunk.js.map": "/static/js/787.4f7ef56f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.285c8d88.js"
+    "static/css/main.1b36188b.css",
+    "static/js/main.a2341e34.js"
   ]
 }
