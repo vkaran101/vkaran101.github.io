@@ -13,7 +13,9 @@ ul.navbar {
     list-style: none;
     text-decoration: none;
     justify-content: center;
-    margin: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding: 0;
 }
 
 .navbar-item {
@@ -26,7 +28,7 @@ ul.navbar {
 a {
     text-decoration: none;
     color: black;
-    font-size: 1.25vmax;
+    font-size: calc(5px + 1.25vmax);
 }
 
 .navbar-item:hover {

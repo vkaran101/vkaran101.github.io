@@ -1,6 +1,6 @@
 import React from "react";
 import { Document, Page, pdfjs} from 'react-pdf';
-import vandana_resume from './vandana-karan-resume-UX.pdf';
+import vandana_resume from './vandana-karan-resume-2022.pdf';
 import './Resume.css';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,7 +19,7 @@ function Resume() {
         <div>
             <div className="page__header">
                 <p>Resume</p>
-                <Link to="/vandana-karan-resume-UX.pdf" target="_blank" download>
+                <Link to="/vandana-karan-resume-2022.pdf" target="_blank" download>
                     <FontAwesomeIcon icon={faDownload} size="xl" color="white" data-tip data-for="DownloadTip"/>
                 </Link>
                 <ReactTooltip id="DownloadTip">
