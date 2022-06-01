@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.1b36188b.css",
-    "main.js": "/static/js/main.a2341e34.js",
+    "main.js": "/static/js/main.e712566d.js",
     "static/js/787.4f7ef56f.chunk.js": "/static/js/787.4f7ef56f.chunk.js",
     "static/media/vandana_profile.jpeg": "/static/media/vandana_profile.67200f3d74db13e5054e.jpeg",
     "static/media/lightbulb_stock.jpeg": "/static/media/lightbulb_stock.5e35340a4cd3f4fe1d23.jpeg",
     "static/media/vandana-karan-resume-2022.pdf": "/static/media/vandana-karan-resume-2022.55d9b875c798196e85b8.pdf",
     "index.html": "/index.html",
     "main.1b36188b.css.map": "/static/css/main.1b36188b.css.map",
-    "main.a2341e34.js.map": "/static/js/main.a2341e34.js.map",
+    "main.e712566d.js.map": "/static/js/main.e712566d.js.map",
     "787.4f7ef56f.chunk.js.map": "/static/js/787.4f7ef56f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b36188b.css",
-    "static/js/main.a2341e34.js"
+    "static/js/main.e712566d.js"
   ]
 }
